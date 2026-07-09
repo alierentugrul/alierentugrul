@@ -23,7 +23,7 @@
 
   <!-- SOCIALS -->
   <p align="center">
-    <a href="https://www.linkedin.com/in/ali-eren-tu%C4%9Frul-1b3265258/">
+    <a href="https://www.linkedin.com/in/alierentugrul/">
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
     <a href="mailto:hello@alierentugrul.com">
