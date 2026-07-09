@@ -57,25 +57,10 @@
 <div align="center">
   <h3>🛠️ Tech Stack & Tools</h3>
   <p>
-    <code>C#</code>
-    <code>.NET Core</code>
-    <code>TypeScript</code>
-    <code>React</code>
-    <code>Next.js</code>
-    <code>TailwindCSS</code>
-    <code>GSAP</code>
-    <code>Framer Motion</code>
-    <code>Figma</code>
-    <code>SQL Server</code>
+    <a href="https://alierentugrul.com">
+      <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,react,nextjs,tailwind,figma,nodejs,git,github&theme=dark" alt="Tech Stack Icons" />
+    </a>
   </p>
-</div>
-
-<br/>
-
-<div align="center">
-  <a href="https://alierentugrul.com">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alierentugrul&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=ffffff" alt="Top Languages" />
-  </a>
 </div>
 
 <br/>
