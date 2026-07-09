@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://alierentugrul.com">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0a0a0a&height=250&section=header&text=Ali%20Eren%20Tuğrul&fontSize=50&fontAlignY=35&desc=Software%20Engineer%20%26%20UI/UX%20Designer&descAlignY=55&descSize=20&fontColor=ffffff" alt="Header" />
+    <img src="https://capsule-render.vercel.app/api?type=waving&color=0a0a0a&height=250&section=header&text=Ali%20Eren%20Tugrul&fontSize=50&fontAlignY=35&desc=Software%20Engineer%20and%20UI%20UX%20Designer&descAlignY=55&descSize=20&fontColor=ffffff" alt="Header" />
   </a>
 
   <h3> 🌟 Welcome to my digital workspace! / Dijital çalışma alanıma hoş geldiniz! </h3>
@@ -74,7 +74,7 @@
 
 <div align="center">
   <a href="https://alierentugrul.com">
-    <img src="https://github-readme-stats.vercel.app/api?username=alierentugrul&show_icons=true&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=ffffff&icon_color=00ff00" alt="GitHub Stats" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alierentugrul&layout=compact&theme=radical&hide_border=true&bg_color=0a0a0a&text_color=ffffff" alt="Top Languages" />
   </a>
 </div>
 
