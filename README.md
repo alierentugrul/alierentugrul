@@ -8,8 +8,6 @@
 
 Computer Engineer specializing in **Computer Vision**, **Deep Learning (PyTorch, TensorRT)**, and **Retrieval-Augmented Generation (RAG)** architectures.
 
-Currently engineering optical quality inspection and real-time surface defect detection prototypes at **GCA (Gürallar Cam Ambalaj)**, integrating high-speed camera acquisition, spatial pre-processing filters, and low-latency industrial PLC automation synchronization.
-
 ---
 
 ## Technical Domain
