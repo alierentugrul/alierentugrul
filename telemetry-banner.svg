@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="260">
+  <defs>
+    <style>
+      @keyframes scanline {
+        0% { transform: translateY(0); opacity: 0; }
+        15% { opacity: 0.9; }
+        85% { opacity: 0.9; }
+        100% { transform: translateY(115px); opacity: 0; }
+      }
+      @keyframes reticlePulse {
+        0%, 100% { stroke: #00F0FF; opacity: 0.9; }
+        50% { stroke: #38BDF8; opacity: 0.45; }
+      }
+      @keyframes blinkDot {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.2; }
+      }
+      @keyframes ping {
+        0% { r: 3; opacity: 1; }
+        100% { r: 7; opacity: 0; }
+      }
+      .mono-text {
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      }
+      .sans-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+    </style>
+
+    <!-- Izgara Deseni -->
+    <pattern id="tech-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#121820" stroke-width="0.8" />
+    </pattern>
+
+    <!-- Lazer Tarama Çizgisi Gradyanı -->
+    <linearGradient id="laser-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0" />
+      <stop offset="25%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="1" />
+      <stop offset="75%" stop-color="#00F0FF" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Hedef Alan Karartma Gradyanı -->
+    <linearGradient id="box-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0.01" />
+    </linearGradient>
+  </defs>
+
+  <!-- Arka Plan -->
+  <rect width="850" height="260" rx="8" fill="#080C10" />
+  <rect width="850" height="260" rx="8" fill="url(#tech-grid)" />
+  <rect width="848" height="258" x="1" y="1" rx="7" fill="none" stroke="#1B2430" stroke-width="1.2" />
+
+  <!-- Köşe Optik İşaretçileri (+) -->
+  <g stroke="#334155" stroke-width="1.2">
+    <path d="M 12 16 L 20 16 M 16 12 L 16 20" />
+    <path d="M 830 16 L 838 16 M 834 12 L 834 20" />
+    <path d="M 12 244 L 20 244 M 16 240 L 16 248" />
+    <path d="M 830 244 L 838 244 M 834 240 L 834 248" />
+  </g>
+
+  <!-- Üst Telemetri Çubuğu -->
+  <g class="mono-text" font-size="10" letter-spacing="1">
+    <text x="32" y="36" fill="#475569">SYS // OPTICAL_INSPECTION_PIPELINE</text>
+    <text x="340" y="36" fill="#00F0FF" opacity="0.8">LATENCY: 3.8ms [FP16]</text>
+    
+    <!-- Canlı Sinyal Göstergesi -->
+    <circle cx="750" cy="32" r="3.5" fill="#10B981" style="animation: blinkDot 1.4s infinite ease-in-out;" />
+    <circle cx="750" cy="32" r="3.5" fill="none" stroke="#10B981" stroke-width="1" style="animation: ping 1.4s infinite cubic-bezier(0, 0, 0.2, 1);" />
+    <text x="762" y="36" fill="#10B981" font-weight="600">INFERENCE_OK</text>
+  </g>
+
+  <line x1="32" y1="48" x2="818" y2="48" stroke="#16202C" stroke-width="1" />
+
+  <!-- Sol Blok: Kimlik & Uzmanlık -->
+  <g transform="translate(36, 85)">
+    <text class="sans-text" x="0" y="28" font-size="28" font-weight="700" fill="#F8FAFC" letter-spacing="0.5">Ali Eren Tuğrul</text>
+    
+    <text class="mono-text" x="0" y="58" font-size="12.5" font-weight="600" fill="#00F0FF" letter-spacing="0.5">
+      COMPUTER ENGINEER &bull; AI &amp; COMPUTER VISION
+    </text>
+    
+    <text class="sans-text" x="0" y="86" font-size="12" fill="#94A3B8">
+      Deep Learning &bull; TensorRT Inference &bull; RAG Architectures &bull; Industrial Inspection
+    </text>
+
+    <!-- Alt Metrik Verileri -->
+    <g class="mono-text" font-size="9.5" fill="#64748B" transform="translate(0, 118)">
+      <text x="0" y="0">RUNTIMES: [PyTorch 2.x, TensorRT, CUDA, OpenCV]</text>
+      <text x="0" y="16">RETRIEVAL: [ChromaDB, Hybrid BM25, MiniLM, Local LLM]</text>
+    </g>
+  </g>
+
+  <!-- Sağ Blok: Endüstriyel Görüntü İşleme / Bounding Box Simülasyonu -->
+  <g transform="translate(560, 68)">
+    <!-- Bounding Box Arka Planı -->
+    <rect x="0" y="0" width="258" height="135" rx="3" fill="url(#box-bg)" />
+    
+    <!-- Lazer Tarama Çizgisi -->
+    <g style="animation: scanline 2.8s infinite ease-in-out;">
+      <line x1="4" y1="8" x2="254" y2="8" stroke="url(#laser-grad)" stroke-width="1.8" />
+    </g>
+
+    <!-- Köşe Vizör Parantezleri [ ] -->
+    <g fill="none" stroke-width="2" style="animation: reticlePulse 2.2s infinite ease-in-out;">
+      <!-- Sol Üst -->
+      <path d="M 0 16 L 0 0 L 16 0" />
+      <!-- Sağ Üst -->
+      <path d="M 242 0 L 258 0 L 258 16" />
+      <!-- Sol Alt -->
+      <path d="M 0 119 L 0 135 L 16 135" />
+      <!-- Sağ Alt -->
+      <path d="M 242 135 L 258 135 L 258 119" />
+    </g>
+
+    <!-- Merkez Hedef Artısı (+) -->
+    <path d="M 125 67.5 L 133 67.5 M 129 63.5 L 129 71.5" stroke="#00F0FF" stroke-width="1" opacity="0.6" />
+
+    <!-- Vizör İçi Telemetri Etiketleri -->
+    <g class="mono-text" font-size="9" fill="#00F0FF">
+      <!-- Sol Üst Etiket -->
+      <rect x="6" y="6" width="102" height="15" fill="#0D1520" rx="2" stroke="#1E293B" stroke-width="0.8"/>
+      <text x="11" y="17" fill="#38BDF8">TARGET: DEFECT_SCAN</text>
+
+      <!-- Sağ Üst Doğruluk -->
+      <rect x="180" y="6" width="72" height="15" fill="#0D1520" rx="2" stroke="#1E293B" stroke-width="0.8"/>
+      <text x="185" y="17" fill="#10B981">CONF: 0.994</text>
+
+      <!-- Sol Alt Koordinatlar -->
+      <text x="8" y="126" fill="#64748B" font-size="8.5">ROI: [X:412 Y:188 W:64 H:64]</text>
+
+      <!-- Sağ Alt Çıkarım Süresi -->
+      <text x="178" y="126" fill="#F59E0B" font-size="8.5">INFER: 4.2ms</text>
+    </g>
+  </g>
+
+  <!-- Alt Durum Çizgisi -->
+  <line x1="32" y1="228" x2="818" y2="228" stroke="#16202C" stroke-width="1" />
+  
+  <g class="mono-text" font-size="9" fill="#475569" transform="translate(32, 244)">
+    <text x="0" y="0">NODE: INDUSTRIAL_EDGE_01</text>
+    <text x="240" y="0">PLC_SYNC: VERIFIED (GCA_LINE)</text>
+    <text x="490" y="0">ARCH: CNN_RESNET_QUANTIZED</text>
+    <text x="720" y="0">STATUS: NOMINAL</text>
+  </g>
+</svg>
