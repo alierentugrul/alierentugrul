@@ -1,70 +1,21 @@
 <div align="center">
-  <a href="https://alierentugrul.com">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=0a0a0a&height=250&section=header&text=Ali%20Eren%20Tugrul&fontSize=50&fontAlignY=35&desc=Software%20Engineer%20and%20UI%20UX%20Designer&descAlignY=55&descSize=20&fontColor=ffffff" alt="Header" />
-  </a>
-
-  <h3> 🌟 Welcome to my digital workspace! / Dijital çalışma alanıma hoş geldiniz! </h3>
-
-  <p align="center">
-    I bridge the gap between powerful engineering and stunning aesthetics.<br>
-    <i>Güçlü mühendislik ile göz alıcı estetiği bir araya getiriyorum.</i>
-  </p>
-
-  <br/>
-
-  <!-- PRIMARY CALL TO ACTION: PORTFOLIO -->
-  <h2>🚀 Explore My Full Interactive Portfolio</h2>
-  <p>To see my featured projects, dual-mode (Engineer/Designer) interactive resume, and detailed case studies, please visit my official website:</p>
-  
-  <a href="https://alierentugrul.com">
-    <img src="https://img.shields.io/badge/🌐_Visit_My_Website-alierentugrul.com-111111?style=for-the-badge&logoColor=white&logo=googlechrome" alt="Website" />
-  </a>
-  <br/><br/>
-
-  <!-- SOCIALS -->
-  <p align="center">
-    <a href="https://www.linkedin.com/in/alierentugrul/">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:hello@alierentugrul.com">
-      <img src="https://img.shields.io/badge/Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-  </p>
+  <img src="./telemetry-banner.svg" alt="Ali Eren Tuğrul - AI & Computer Vision Engineer" width="100%" />
 </div>
 
-<hr/>
+<br />
 
-<div align="center">
+## Focus & Engineering Scope
 
-### 🇬🇧 About Me
-* 💻 **Software Engineer** specializing in .NET Core, C#, and modern Frontend frameworks (React, TS).
-* 🎨 **UI/UX Designer** focused on creating immersive, pixel-perfect, and highly animated user experiences.
-* 🎓 Graduated from Iskenderun Technical University (Computer Engineering).
-* 📫 **Reach me at:** [hello@alierentugrul.com](mailto:hello@alierentugrul.com)
+Computer Engineer specializing in **Computer Vision**, **Deep Learning (PyTorch, TensorRT)**, and **Retrieval-Augmented Generation (RAG)** architectures.
 
-<br/>
+Currently engineering optical quality inspection and real-time surface defect detection prototypes at **GCA (Gürallar Cam Ambalaj)**, integrating high-speed camera acquisition, spatial pre-processing filters, and low-latency industrial PLC automation synchronization.
 
-### 🇹🇷 Hakkımda
-* 💻 **Yazılım Mühendisi:** .NET Core, C# ve modern Frontend teknolojileri (React, TS) üzerine uzmanlaşıyorum.
-* 🎨 **UI/UX Tasarımcısı:** Sürükleyici, kusursuz ve yüksek animasyonlu kullanıcı deneyimleri tasarlamaya odaklanıyorum.
-* 🎓 İskenderun Teknik Üniversitesi, Bilgisayar Mühendisliği mezunuyum.
-* 📫 **Bana ulaşın:** [hello@alierentugrul.com](mailto:hello@alierentugrul.com)
+---
 
-</div>
+## Technical Domain
 
-<hr/>
-
-<div align="center">
-  <h3>🛠️ Tech Stack & Tools</h3>
-  <p>
-    <a href="https://alierentugrul.com">
-      <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,react,nextjs,tailwind,figma,nodejs,git,github&theme=dark" alt="Tech Stack Icons" />
-    </a>
-  </p>
-</div>
-
-<br/>
-
-<div align="center">
-  <i>"The best way to predict the future is to invent it."</i>
-</div>
+```text
+COMPUTER VISION    PyTorch • OpenCV • TensorRT • CUDA • CNNs • Facial Landmark Alignment
+GENERATIVE AI      RAG Architectures • ChromaDB • MiniLM • Ollama • Gemini API • Hybrid Search
+LANGUAGES          Python • C++ • C# • SQL
+SYSTEMS & TOOLS    Playwright • PLC Programming • Unity 3D • SQLite • Git • Linux
