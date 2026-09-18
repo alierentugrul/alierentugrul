@@ -21,13 +21,8 @@ LANGUAGES          Python • C++ • C# • SQL
 SYSTEMS & TOOLS    Playwright • PLC Programming • Unity 3D • SQLite • Git • Linux
 ```
 
-# REST API client connecting the Unity 3D engine to external LLM servers with low-latency response streaming.
-Education
-
 ## Direct Connect
 ```text
 Portfolio: alierentugrul.com
 LinkedIn: linkedin.com/in/alierentugrul
 Email: hello@alierentugrul.com
-
-
